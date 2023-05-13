@@ -11,7 +11,7 @@ const commentModel = require('./models/Comments');
 
 app.use(express.json());
 app.use(cors( {
-   origin: ['http://localhost:3000','httpss://mern-portfolio.onrender.com']}
+   origin: ['http://localhost:3000','https://mern-portfolio.onrender.com']}
 ));
 mongoose.connect('mongodb+srv://arshanarul:%21C%40ibaZ8B5gPJK_@cluster0.gyh8ewg.mongodb.net/SkillretryWrites=true&w=majority',{
     useNewUrlParser : true,
