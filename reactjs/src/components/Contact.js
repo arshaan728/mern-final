@@ -26,7 +26,7 @@ export const Contact = () =>{
     {
         e.preventDefault();
         setButtonText('Sending...');
-        let response = await fetch('http://localhost:5000/contact',{
+        let response = await fetch('https://mern-final-m6de.onrender.com',{
             method:'POST',
             headers: {
                 'Content-Type':'Application/json;charset=utf-8',

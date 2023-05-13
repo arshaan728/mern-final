@@ -8,7 +8,7 @@ export const Input = () =>{
     const [skill,setskill] = useState(0);
 
     const addtodb = () => {
-       Axios.post('http://localhost:3001/insert',{
+       Axios.post('https://mern-final-m6de.onrender.com',{
         language: language,
         description:description,
         skill : skill,
