@@ -10,7 +10,7 @@ const [msg,setmsg] = useState('');
 const message = (evt)=>{
     if(evt.key=='Enter') {
         console.log(msg);
-        Axios.post('http://localhost:3001/insert',{comment:msg, method: 'POST',
+        Axios.post('https://localhost:3001/insert',{comment:msg, method: 'POST',
         mode: 'cors'});
         setmsg('');
         console.log(msg);

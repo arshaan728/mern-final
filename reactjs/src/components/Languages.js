@@ -9,7 +9,7 @@ export const Languages = () => {
 
 
   useEffect(()=>{
-    Axios.get('https://mern-final-m6de.onrender.com').then((response)=>{
+    Axios.get('https://localhost:3001/read').then((response)=>{
       setskilllist(response.data);
     })
   })
